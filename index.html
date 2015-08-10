@@ -44,8 +44,8 @@
     </nav>
     <section class="container-fluid" id="section1">
         <div class="v-center">
-            <h1 class="text-center">In memoriam</h1>
-            <h2 class="text-center lato animate slideInDown">Por las víctimas de la violencia en <b>Venezuela</b> </h2>
+            <h1 class="text-center">El Muro de la Memoria</h1>
+            <h2 class="text-center lato animate slideInDown">Las víctimas de la violencia en <b>Venezuela</b> </h2>
             <p class="text-center">
                 <br>
                 <a href="#section4" class="btn btn-danger btn-lg btn-huge lato">Registro</a>
@@ -127,31 +127,18 @@
                     <table style="background-color:white; color: black;" st-table="rowCollection" class="table table-striped">
                         <thead>
                             <tr>
-                                <th>first name</th>
-                                <th>last name</th>
-                                <th>birth date</th>
-                                <th>balance</th>
-                                <th>email</th>
+                                <th>Estado</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr st-select-row="row" st-select-mode="multiple" ng-repeat="row in vm.rowCollection">
-                                <td>{{row.firstName}}</td>
-                                <td>{{row.lastName}}</td>
-                                <td>{{row.birthDate}}</td>
-                                <td>{{row.balance}}</td>
-                                <td>{{row.email}}</td>
+                                <td>{{row.estado}}</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <h4>{{vm.map}}</h4>
-                <h4>{{vm.rowCollection}}</h4>
+                {{vm.map}}
             </div>
-            
-
-
-            
         </div>
     </section>
     <section class="container-fluid" id="section4">
