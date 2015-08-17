@@ -12,11 +12,15 @@ namespace ElMuroVenezolano.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
-        public string deceasedCity { get; set; }
-        public string deceasedState { get; set; }
-        public DateTime deceasedDate { get; set; }
-        public string bornCity { get; set; }
-        public string bornState { get; set; }
-        public string decription { get; set; }
+        public string Identification { get; set; }
+        public string Gender { get; set; }
+        public int Age { get; set; }
+        public City DeathCity { get; set; }
+        public State DeathState { get; set; }
+        public DateTime DeathDate { get; set; }
+        public City BirthCity { get; set; }
+        public State BirthState { get; set; }
+        public Contact EnteredBy { get; set; }
+        public string Information { get; set; }
     }
 }

@@ -6,7 +6,8 @@
     "angular-ui-router": "~0.2.15",
     "fontawesome": "~4.4.0",
     "angular-smart-table": "~2.1.2",
-    "angular-google-maps": "~2.1.5"
+    "angular-google-maps": "~2.1.5",
+    "angular-ui": "~0.4.0"
   },
   "version": "1.0.0",
   "authors": [
